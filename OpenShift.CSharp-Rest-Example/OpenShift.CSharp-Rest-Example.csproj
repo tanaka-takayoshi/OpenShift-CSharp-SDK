@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenShift.Service.Core\OpenShift.Service.Core.csproj" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.11" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>OpenShift.CSharp_Rest_Example</RootNamespace>
+  </PropertyGroup>
+
+</Project>

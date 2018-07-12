@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShift.Service.Core", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShift.OpenAPITransform", "OpenShift.OpenAPITransform\OpenShift.OpenAPITransform.csproj", "{8843235A-BA5C-48EF-8603-2453AA5EFC34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShift.CSharp-Rest-Example", "OpenShift.CSharp-Rest-Example\OpenShift.CSharp-Rest-Example.csproj", "{95B7AC43-E19F-45C3-B651-F31E920CFB0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8843235A-BA5C-48EF-8603-2453AA5EFC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8843235A-BA5C-48EF-8603-2453AA5EFC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8843235A-BA5C-48EF-8603-2453AA5EFC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B7AC43-E19F-45C3-B651-F31E920CFB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B7AC43-E19F-45C3-B651-F31E920CFB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B7AC43-E19F-45C3-B651-F31E920CFB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B7AC43-E19F-45C3-B651-F31E920CFB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

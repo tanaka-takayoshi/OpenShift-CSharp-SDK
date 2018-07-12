@@ -1,7 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <PackageVersion>3.9.0-sdk-rc1</PackageVersion>
+    <Title>OpenShift REST client library for C#</Title>
+    <Authors>Takayoshi Tanaka</Authors>
   </PropertyGroup>
 
   <ItemGroup>
